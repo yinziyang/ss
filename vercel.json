@@ -1,8 +1,16 @@
 {
   "routes": [
     {
+      "src": "/ss",
+      "dest": "/api/ss.go"
+    },
+    {
+      "src": "/singbox",
+      "dest": "/api/singbox.go"
+    },
+    {
       "src": "/.*",
-      "dest": "/api/handler.go"
+      "dest": "/api/ss.go"
     }
   ]
 }
