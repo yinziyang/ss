@@ -2,6 +2,7 @@ package handler
 
 import (
 	"net/http"
+	"fmt"
 )
 
 const configContent = "[custom]\n" +
