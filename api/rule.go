@@ -39,5 +39,5 @@ const configContent = "[custom]\n" +
 
 func Handler(w http.ResponseWriter, r *http.Request) {
 	w.Header().Set("Content-Type", "text/plain; charset=utf-8")
-	w.Header().Set("Content-Type", "text/plain; charset=utf-8")
+	fmt.Fprintln(w, configContent)
 }
