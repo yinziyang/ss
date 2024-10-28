@@ -9,6 +9,10 @@
       "dest": "/api/singbox.go"
     },
     {
+      "src": "/rule",
+      "dest": "/api/rule.go"
+    },
+    {
       "src": "/.*",
       "dest": "/api/ss.go"
     }
